@@ -139,3 +139,6 @@ body pre code.smallText {
   font-size: .75em;
 }
 
+.left-offset {
+  margin-left: 24px;
+}
