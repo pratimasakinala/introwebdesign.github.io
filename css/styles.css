@@ -171,3 +171,8 @@ body pre code.smallText {
 .container.content {
   margin-top: 75px;
 }
+
+/*MEDIA*/
+.contact-me-video {
+  width: 700px;
+}
