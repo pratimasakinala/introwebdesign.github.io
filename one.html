@@ -61,12 +61,11 @@
       <ul class="point">
         	<li> Introductions</li>
           <li> What is the Internet/the cloud?</li>
-          <li> What is HTML &amp; CSS how they work together</li>
           <li> What is a browser vs search engine</li>
-          <li> Open &amp; Closed Carets or Tags < > < /></li>
-          <li> Codepen.io CODE PEN CODING</li>
-          <li>Clean Coding</li>
-          <li>HTML &amp; CSS Syntax</li>
+          <li> What are HTML &amp; CSS</li>
+          <li> HTML &amp; CSS Syntax</li>
+          <li>Clean Coding, Tags, &amp; Elements</li>
+          <li> Codepen.io</li>
       </ul>
     </div>
   </div>
@@ -102,7 +101,7 @@
 
 
   <div class="row"><!-- HTML && CSS -->
-    <h2 class="col-md-3">What is HTML &amp; CSS how they work together</h2>
+    <h2 class="col-md-3">What are HTML &amp; CSS?</h2>
     <div class="col-md-9">
       <ul class="point">
          <li><a href="http://www.w3schools.com/html/">HTML5</a></li>
@@ -126,6 +125,7 @@
         <code class="language-markup">
           <p>< > (opening tag), < / > (closing tag)</p>
           <p>ALWAYS close your tags!!</p>
+          <p><em>Together</em> they make an element</p>
         </code>
       </pre>
     </div>
@@ -138,8 +138,9 @@
         <li>Visit <a href="www.codepen.io">Codepen</a> and create an account.</li>
         <li>Let's take a look around:
           <ul>
-            <li>File Tree</li>
-            <li>File Structure</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>File vs. Folder/Directory</li>
           </ul>
         </li>
       </ul>
@@ -165,13 +166,16 @@
           <!DOCTYPE html>
           < html >
               < head >
+                  < meta name = "viewport" content = "scale: 1:1" />
                   < title >Page Title< /title >
               < / head >
               < body >
                   < header >
                       < h1 >TITLE < /h1 >
                   < /header >
-                  < p > Text here < / p >
+                  < div >
+                    < p > Text here < / p >
+                  < / div >
               < /body >
           < / html >
           < !- - comment - - >
@@ -181,7 +185,7 @@
     <div class="col-md-9 col-md-offset-3">
       <pre class="language-markup">
         <code class="language-markup">
-        div {
+        element name {
           property: modifier;
         }
 
