@@ -146,11 +146,15 @@ body pre code.smallText {
 /*=========NAVBAR============*/
 
 .navbar-default {
-  background-color: #24292e;
-  color: #C8C9CB;
+  background-color: #7A1501;
+  color: #F9DA0C;
   padding: 5px 0;
   border: none;
   border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+  color: #F9DA0C;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -164,8 +168,26 @@ body pre code.smallText {
 
 .navbar-nav>li>.dropdown-menu {
   margin-top: 5px;
+  background-color: #7a1501;
+  border-color: #f9da0c;
 }
 
+.dropdown-menu .divider {
+  background-color: #f9da0c;
+}
+
+.dropdown-menu>li>a {
+  color: #f9da0c;
+}
+
+.dropdown-menu>li {
+  text-align: justify;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  background-color: #f9da0c;
+  color: #7a1501;
+}
 /*===========MAIN CONTENT=============*/
 
 .container.content {
