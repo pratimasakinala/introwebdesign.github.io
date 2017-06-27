@@ -65,7 +65,7 @@ body .point ol.list {
   list-style-type: decimal;
 }
 body.theme h1 {
-  color: #0073ea;
+  color: #F9DA0C;
   font-size: 2em;
   font-weight: 300;
 }
@@ -75,7 +75,7 @@ body.theme h1.hdr {
   margin-top: 60px;
 }
 body.theme h2 {
-  color: #ff0084;
+  color: #7A1501;
   font-size: 1.8em;
   font-weight: 400;
 }
@@ -146,8 +146,8 @@ body pre code.smallText {
 /*=========NAVBAR============*/
 
 .navbar-default {
-  background-color: #7A1501;
-  color: #F9DA0C;
+  background-color: #7A1501; /*Geekwise Red*/
+  color: #F9DA0C; /*Geekwise Yellow*/
   padding: 5px 0;
   border: none;
   border-radius: 0;
